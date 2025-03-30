@@ -1,0 +1,72 @@
+#gameScreen {
+  border: 4px solid rgb(0, 0, 0);
+  background-color: rgb(189, 199, 255);
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#mouvingButton {
+  padding-left: 0;
+  padding-right: 0;
+  border: 3px solid rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: rgb(50, 168, 56);
+}
+
+#contact_info {
+  text-align: center;
+  border: 3px solid green;
+  border-radius: 5px;
+  color: white;
+}
+img {
+  display: none;
+}
+body {
+  background-color: rgb(3, 18, 48);
+  touch-action: none;
+}
+#inputBox {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  width: 400px;
+  height: 100px;
+  display: none;
+  background-color: rgb(138, 48, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+#code1{
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  display: block;
+  font-size: 20px;
+  font-family: "Arial";
+
+}
+#code2{
+  position: absolute;
+  /*left: 60px;*/
+  top: 490px;
+  display: block;
+  font-size: 18px;
+  font-family: "Arial";
+
+}
+#firstDive {
+  position: absolute;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  width: 508px;
+  height: 703px;
+}
